@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
   // The White Card
   cardContainer: {
     marginHorizontal: 80,
-    marginTop: -90,
+    marginTop: -80,
     backgroundColor: '#fff',
     borderRadius: 15,
   },
