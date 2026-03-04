@@ -13,13 +13,13 @@ import { InvoicePDF } from '@/components/InvoicePDF';
 export default function InvoicePage() {
   const [isClient, setIsClient] = useState(false);
   const [formData, setFormData] = useState({
-    invoiceNumber: 'DA256.34',
+    invoiceNumber: 'DA26.XXX',
     clientName: 'Pascal',
     clientLocation: 'Jalan Dramaga No. 12, Bogor',
-    clientPhone: '0812-3456-7890',
+    clientPhone: '081234567890',
     clientEmail: 'pascal@example.com',
-    paymentNumber: '1436268740 (BNI)',
-    paymentName: 'Helmi Falah',
+    paymentNumber: '901717862303 (Seabank)',
+    paymentName: 'Nabila Zahra',
     items: [{ description: 'Analisis Multinomial Logit Regression', qty: 1, rate: 120000 }]
   });
 
