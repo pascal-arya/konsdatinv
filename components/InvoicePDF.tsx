@@ -215,7 +215,8 @@ export const InvoicePDF = ({ data }: { data: any }) => {
               </Text>
 
               <Text style={{ fontSize: 9, fontWeight: 'bold', marginTop: 15 }}>Best Regards,</Text>
-              <Text style={{ fontSize: 9, marginTop: 50 }}>Data Analytics Director</Text>
+              <Image src="/sign.png" style={{ width: 80, height: 40, marginTop: 5, marginBottom: 5, objectFit: 'contain' }} />
+              <Text style={{ fontSize: 9 }}>Data Analytics Director</Text>
             </View>
 
             <View style={styles.grandTotalButton}>
